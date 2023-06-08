@@ -1,3 +1,33 @@
 body { 
     background-color: #F9DDD2;
+    font-size: 20px;
+
+}
+.nav-color-verde {
+    background-color: #273724;
+    color: #F9DDD2;
+}
+.background {
+    background: fixed;
+}
+.background img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.background span {
+    box-shadow: 20px 50px #F9DDD2;
+    border-radius: 10px;
+    z-index: 2;
+}
+.agricultura-sec {
+    align-items: center;
+    text-align: center;
+}
+.size-img{
+    max-width: 50%;
+}
+.imagem-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
