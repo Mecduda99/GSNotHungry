@@ -1,14 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body { 
     background-color: #F9DDD2;
-    font-size: 20px;
+    font-size: 25px;
+    color: #273724;
+    font-family: 'DM Sans', sans-serif;
+
 
 }
-.nav-color-verde {
-    background-color: #273724;
-    color: #F9DDD2;
+
+.cabecalho {
+    /* background-color: rgb(46, 122, 122); */
+    box-shadow: 0 3px 10px black;
 }
+.nav-bar {
+    background: #273724;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    max-height: 100%;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item {
+    margin:0 50px;
+    letter-spacing: 2px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #F9DDD2;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: #C51616;
+    background-color: #F9DDD2;
+    border-radius: 3px;
+    padding: 10px;
+}
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
+
+
+
 .background {
+    background-image: url("../imgs/vegetais.png");
+    background-position: center;
+    background-repeat: no-repeat;
     background: fixed;
+    min-height: 95vh;
+    
 }
 .background img {
     max-width: 100%;
@@ -17,11 +79,21 @@ body {
 .background span {
     box-shadow: 20px 50px #F9DDD2;
     border-radius: 10px;
-    z-index: 2;
 }
 .agricultura-sec {
     align-items: center;
     text-align: center;
+}
+.agricultura-sec p {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #273724;
+}
+.titulo-sec {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 45px;
+    color: #C51616;
 }
 .size-img{
     max-width: 50%;
